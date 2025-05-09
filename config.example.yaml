@@ -1,0 +1,28 @@
+Database:
+  Postgres:
+    Host: database.example.com
+    Port: 5432
+    User: example
+    Password: password
+    Database: example_db
+    Timezone: Europe/Berlin
+  Valkey:
+    Host: database.example.com
+    Port: 6379
+    User: example
+    Password: password
+    Database: 0
+
+Notifications:
+  Mail:
+    Host: smtp.example.com
+    Port: 578
+    User: example@example.com
+    Password: password
+    SenderEmail: example@example.com
+
+Storage:
+  S3:
+    Bucket: example-bucket
+    Region: eu-west
+    APIKey: example-key
